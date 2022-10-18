@@ -1,0 +1,25 @@
+.TopWitnesses {
+    list-style-type: none;
+    height: 40px;
+    display:flex;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+
+
+  .witnesses {
+    padding: 0px 20px;
+  }
+  
+  .witnessIndex {
+    float: left;
+  }
+  .witnessName {
+    float: right;
+  }
+  
+  .witnessAvatar {
+    height: 25px;
+    border-radius:50%;
+    padding: 0px 5px;
+  }
