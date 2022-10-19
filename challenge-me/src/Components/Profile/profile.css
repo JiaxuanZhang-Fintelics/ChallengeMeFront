@@ -1,0 +1,74 @@
+
+.profileAvatar{
+    position: absolute;
+    left: 120px;
+    top: 210px;
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+}
+.profileUsername{
+    position: absolute;
+    width: 50px;
+    height: 21px;
+    left: 205px;
+    top: 234px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+}
+.editProfileButton{
+    position: absolute;
+    width: 136px;
+    height: 49px;
+    left: 329px;
+    top: 222px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FCFCFC;
+
+    background: #EA544D;
+    border-radius: 28.5px;
+    border:1px solid #EA544D;
+}
+.challengesButton{
+    position: absolute;
+    width: 80px;
+    height: 19px;
+    left: 122px;
+    top: 388px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    background: none;
+    border: none;
+}
+.collectionsButton{
+    position: absolute;
+    width: 81px;
+    height: 19px;
+    left: 259px;
+    top: 388px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    background: none;
+    border: none;
+}
+.ChallengeGrids{
+    position: absolute;
+    height: 160px;
+    left: 102px;
+    top: 471px;
+    list-style: none;
+    display:flex;
+    flex-wrap:wrap;
+}

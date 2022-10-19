@@ -1,0 +1,79 @@
+.TopBar {
+    list-style-type: none;
+    height: 40px;
+    display:flex;
+    overflow: hidden;
+    background-color:none;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+.topAvatar{
+  position: absolute;
+  border-radius:50%;
+  width: 46px;
+  height: 46px;
+  left: 120px;
+  top: 41px;
+}
+
+.addVideoButton{
+  background-image: url(
+'https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/add-video-icon.png');
+  position: absolute;
+  width: 42px;
+  height: 27px;
+  left: 200px;
+  top: 50px;
+  background-size: cover;
+  border: none;
+  
+  background-color: #ea554d00;
+
+}
+
+.searchInputForm{
+  padding-left: 30px;
+  height: 25px;
+  width: 550px;
+
+}
+
+.searchInputBox{
+  position: absolute;
+  text-align: center;
+  padding-left: 30px;
+  justify-content: center;
+ /* Search bar */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 701px;
+height: 49px;
+left: 369px;
+top: 40px;
+
+border: 1px solid #EA544D;
+border-radius: 24.5px;
+
+}
+.connectWalletButton{
+  position: absolute;
+  width: 142px;
+  height: 49px;
+  left: 1178px;
+  top: 40px;
+
+  background: linear-gradient(0deg, #EA544D, #EA544D);
+  border-radius: 6px;
+  border:1px solid #EA544D;
+
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #FFFFFF;
+}
