@@ -1,7 +1,7 @@
 import TopChallengersBar from '../TopChallengers/TopChallengers';
 import TopWitnessesBar from '../TopWitnesses/TopWitnesses';
 import Profile from '../Profile/profile';
-import {BrowserRouter,Routes, Route, Navigate} from 'react-router-dom';
+import { Link, useParams, useNavigate, useSearchParams } from 'react-router-dom'
 import VideoGrids from '../VideoGrids/VideoGrids'; 
 const Home=()=>{
     return(
