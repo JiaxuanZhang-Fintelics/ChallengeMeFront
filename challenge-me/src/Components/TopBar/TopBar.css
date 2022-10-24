@@ -20,12 +20,12 @@
 
 .addVideoButton{
   background-image: url(
-'https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/add-video-icon.png');
-  position: absolute;
-  width: 42px;
-  height: 27px;
-  left: 200px;
-  top: 50px;
+'../../Icons/video-upload_-01 2.png');
+position: absolute;
+width: 42px;
+height: 42px;
+left: 200px;
+top: 43px;
   background-size: cover;
   border: none;
   
