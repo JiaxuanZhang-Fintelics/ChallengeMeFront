@@ -1,3 +1,4 @@
+import './TopWitnesses.css'
 const TopWitnessesBar=()=>{
     // dummy data
     const witnesses=[{name:'Olivia',avatar:'https://roilenergy.com/img/icons/avatar.jpg'},

@@ -1,25 +1,43 @@
 .TopWitnesses {
     list-style-type: none;
-    height: 40px;
     display:flex;
-    overflow: hidden;
-    background-color: #ffffff;
+    align-items: center;
+    justify-content: space-evenly;
+    /* Rectangle 77 */
+
+
+  position: absolute;
+  width: 1221px;
+  height: 91px;
+  left: 109px;
+  top: 1140px;
+
+  background: #FFFFFF;
+  border-radius: 5px;
+
+  font-size: 18px;
+  line-height: 21px
   }
 
 
   .witnesses {
+    display:flex;
     padding: 0px 20px;
+    
   }
   
   .witnessIndex {
-    float: left;
+    line-height: 40px;
+    font-size: 15px;
   }
   .witnessName {
-    float: right;
+    line-height: 40px;
+    font-size: 15px;
   }
   
   .witnessAvatar {
-    height: 25px;
+    width: 42px;
+    height: 42px;
     border-radius:50%;
     padding: 0px 5px;
   }

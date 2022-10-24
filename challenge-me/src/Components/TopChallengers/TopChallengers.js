@@ -1,3 +1,6 @@
+
+import './TopChallengers.css'
+
 const TopChallengersBar=()=>{
     // dummy data
     const challengers=[{name:'Raven',avatar:'https://roilenergy.com/img/icons/avatar.jpg'},

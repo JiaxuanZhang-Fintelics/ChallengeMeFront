@@ -1,0 +1,262 @@
+.video{
+    position: absolute;
+    width: 759px;
+    height: 448px;
+    left: 120px;
+    top: 189px;
+}
+
+.collectionHeader{
+    position: absolute;
+    left: 917px;
+    top: 209px;
+}
+
+.videoCollection{
+    
+    position: absolute;
+    width: 33px;
+    height: 21px;
+    left: 999px;
+    top: 208px;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+color: #000000;
+}
+
+
+.videoAuthorAvatar{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    left: 917px;
+    top: 270px;    
+    border-radius: 50%;
+}
+
+.videoAuthorName{
+    position: absolute;
+width: 50px;
+height: 21px;
+left: 967px;
+top: 279px;
+
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.videoInfoTime{
+    
+position: absolute;
+height: 18px;
+left: 1040px;
+top: 282px;
+
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #575757;
+}
+
+.videoInfoTitle{
+    position: absolute;
+width: 378px;
+height: 42px;
+left: 918px;
+top: 325px;
+
+text-align:left;
+
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+
+.videoInfoDescription{
+    position: absolute;
+width: 414px;
+height: 84px;
+left: 917px;
+top: 384px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align:left;
+
+color: #4B4B4B;
+
+}
+
+.likeButton{
+    background-image: url('../../Icons/like-01 1.png');
+    background-color: transparent;
+  background-size: cover;
+    position: absolute;
+width: 26px;
+height: 27px;
+left: 918px;
+top: 565px;
+border:1px solid transparent
+}
+
+.likeWord{
+    position: absolute;
+width: 34px;
+height: 21px;
+left: 953px;
+top: 571px;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.approvedLabel{
+
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 1046px;
+    top: 568px;
+/* identical to box height */
+
+background-size: cover;
+background-color: transparent;
+background-image: url("../../Icons/approvedicon\ 1.png");
+
+}
+.approvedWord{
+    position: absolute;
+width: 77px;
+height: 21px;
+left: 1082px;
+top: 571px;
+
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.addCommentAvatar{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    left: 141px;
+    top: 674px;
+    border-radius:50% ;
+}
+.addCommentInput{
+    position: absolute;
+width: 116px;
+height: 18px;
+left: 195px;
+top: 680px;
+
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+background-color:transparent;
+border: 1px solid transparent;
+}
+
+
+
+.CommentGrids{
+    position: absolute;
+    list-style: none;
+    left: 141px;
+    top: 749px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.commentAvatar{
+    position:absolute;
+    width: 39px;
+    height: 39px;
+    left:0px;
+    border-radius: 50%;
+}
+
+.commentCard{
+    margin:5px;
+}
+
+.commentNameAndTime{
+    display:flex;
+    flex-direction: left;
+}
+
+.commentName{
+    width: 100px;
+height: 18px;
+left: 45px;
+top: 0px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-align: left;
+padding: 0px 5px;
+/* identical to box height */
+
+
+color: #575757;
+}
+
+.commentTime{
+padding:0px 10px;
+height: 15px;
+left: 0px;
+
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 15px;
+
+color: #575757;
+}
+
+.comment{
+height: 21px;
+left: 195px;
+top: 844px;
+
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+text-align:left;
+color: #575757;
+}

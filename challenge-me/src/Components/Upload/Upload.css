@@ -1,0 +1,58 @@
+.uploadGrid{
+    position: absolute;
+    width: 1268px;
+    height: 975px;
+    left: 86px;
+    top: 131px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.browseButton{
+
+    position: absolute;
+    width: 164px;
+    height: 63px;
+    left: 551px;
+    top: 580px;
+    
+    background: linear-gradient(0deg, #EA544D, #EA544D);
+    border-radius: 13px;    
+    font-style: normal;
+    border-color: transparent;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+}
+
+.uploadHint{
+position: absolute;
+height: 38px;
+left: 382px;
+top: 464px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+
+.uploadPicture{
+    position: absolute;
+width: 240px;
+height: 240px;
+left: 513px;
+top: 214px;
+background-image: url("../../Icons/211937_upload_icon\ 1.png");
+
+background-size: cover;
+}

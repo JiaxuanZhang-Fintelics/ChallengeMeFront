@@ -1,0 +1,73 @@
+.VideoGrids{
+    position: absolute;
+    height: 160px;
+    left: 109px;
+    right:109px;
+    top: 137px; 
+    list-style: none;
+    display:flex;
+    flex-wrap:wrap;
+}
+.videoCard{
+    width:25%;
+    float:left;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.playButton{
+    position:absolute;
+    height:60px;
+    width:60px;
+    background-size: cover;
+    background-color: transparent;
+    border:1px solid transparent;
+    position:absolute;
+    margin-top: 50px;
+    margin-left:120px;
+    background-image: url("https://www.transparentpng.com/thumb/play/S5lCfg-rafting-day-trips-squamish-rafting-company.png");
+    z-index: 35;
+}
+.videoPicture{
+    position:relative;
+    width: 288px;
+    height: 160px;
+    border-radius: 6px;
+}
+.videoInfoWithoutTitle{
+    padding:12px;
+    display:flex;
+    justify-content: space-evenly;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+
+}
+.videoAvatar{
+    width: 27px;
+    height: 27px;
+    border-radius:50%;
+}
+.VideoIndexes{
+    position: absolute;
+    width:100px;
+    height: 23px;
+    left: 1217px;
+    top: 915px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.VideoPage{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    background: none;
+    border: none;
+}
+
+#thisPage{
+    font-weight:700;
+}

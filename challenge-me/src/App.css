@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  /* BG Color */
+
+background: linear-gradient(180deg, #ECEDFD 0%, #ECEDFD 40.29%, #F4F5FD 69.83%, #F3E3F1 100%), linear-gradient(180deg, #ECEDFD 0%, #F3E3F1 100%);
+position: relative;
+width: 1440px;
+height: 1312px;
 }
 
 .App-logo {

@@ -1,0 +1,217 @@
+
+.profileAvatar{
+    position: absolute;
+    left: 120px;
+    top: 210px;
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+}
+.profileUsername{
+    position: absolute;
+    width: 50px;
+    height: 21px;
+    left: 205px;
+    top: 234px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+}
+.editProfileButton{
+    position: absolute;
+    width: 136px;
+    height: 49px;
+    left: 329px;
+    top: 222px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FCFCFC;
+
+    background: #EA544D;
+    border-radius: 28.5px;
+    border:1px solid #EA544D;
+}
+.challengesButton{
+    position: absolute;
+    width: 80px;
+    height: 19px;
+    left: 122px;
+    top: 388px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    background: none;
+    border: none;
+    color: #8E8E8E;
+}
+.collectionsButton{
+    position: absolute;
+    width: 81px;
+    height: 19px;
+    left: 259px;
+    top: 388px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    background: none;
+    border: none;
+    color: #8E8E8E;
+}
+.ChallengeGrids{
+    position: absolute;
+    height: 160px;
+    left: 102px;
+    top: 471px;
+    list-style: none;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#selectedMode{
+    color: #000000;
+}
+
+.CollectionGrids{
+    position: absolute;
+    height: 160px;
+    left: 102px;
+    top: 471px;
+    list-style: none;
+    display:flex;
+    flex-wrap:wrap;
+}
+.collectionPicture{
+    width: 138px;
+    height: 138px;
+    float: left;
+}
+
+
+.collectionCard{
+    width: 278px;
+    height: 278px;
+    margin:15px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    overflow:hidden;
+}
+
+.collectionInfo{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    width: 36px;
+    height: 23px;
+    position:relative;
+    top: 74px;
+    left:174px;
+}
+
+.newCollectionButton{
+    width: 184px;
+    height: 57px;
+    background: linear-gradient(0deg, #F2F2F2, #F2F2F2);
+    border-radius: 28.5px;
+    border: 1px solid #F2F2F2;
+    position:relative;
+    top:109px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.editWindow{
+    position: absolute;
+    width: 499px;
+    height: 370px;
+    left: 470px;
+    top: 314px;
+    z-index: 42;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.editProfileAvatar{
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    top:51px;
+    left: 122px;
+    border-radius: 50%;
+}
+
+.changeProfilePhotoButton{
+    position: absolute;
+    height: 21px;
+    left: 212px;
+    top: 74px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    background: none;
+    border: none;
+
+
+color: #EA544D;
+}
+
+.editName{
+    position: absolute;
+    width: 48px;
+    height: 21px;
+    left: 129px;
+    top: 154px;
+
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+/* identical to box height */
+color: #000000;
+}
+
+.nameInputBox{
+    position: absolute;
+    width: 169px;
+    height: 42px;
+    left: 212px;
+    top: 143px;
+
+border: 1px solid #A8A8A8;
+border-radius: 3px;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-indent: 10px;
+}
+
+.updateButton{
+    position: absolute;
+width: 136px;
+height: 49px;
+left: 187px;
+top: 263px;
+
+background: #EA544D;
+border-radius: 28.5px;
+border: 1px solid  #EA544D;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+
+color: #FCFCFC;
+}
